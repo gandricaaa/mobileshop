@@ -1,40 +1,57 @@
 /*
 Sass Template
 */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 /*
 global classes
 */
 button,
 button:focus {
-  outline: none !important;
-  box-shadow: none !important;
+	outline: none !important;
+	box-shadow: none !important;
 }
 
 .font-open {
-  font-family: "Open+Sans", cursive;
+	font-family: 'Open+Sans', cursive;
 }
 
 .font-rale {
-  font-family: "Raleway", cursive;
+	font-family: 'Raleway', cursive;
 }
 
 .font-rubik {
-  font-family: "Rubik", cursive;
+	font-family: 'Rubik', cursive;
 }
 
 .font-size-12 {
-  font-size: 12px;
+	font-size: 12px;
 }
 
 .font-size-14 {
-  font-size: 14px;
+	font-size: 14px;
 }
 
 .font-size-16 {
-  font-size: 16px;
+	font-size: 16px;
 }
 
 .font-size-20 {
-  font-size: 20px;
-}/*# sourceMappingURL=style.css.map */
+	font-size: 20px;
+}
+
+/*Color Template*/
+.color-primary {
+	color: #003859;
+}
+
+.color-primary-bg {
+	background: #003859;
+}
+
+.color-second {
+	color: #00a5c4;
+}
+
+.color-second-bg {
+	background: #00a5c4;
+} /*# sourceMappingURL=style.css.map */
